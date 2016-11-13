@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D1FF1A1DD8252B00A725C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1FF191DD8252B00A725C9 /* main.m */; };
+		08D1FF1D1DD8252B00A725C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1FF1C1DD8252B00A725C9 /* AppDelegate.m */; };
+		08D1FF201DD8252B00A725C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1FF1F1DD8252B00A725C9 /* ViewController.m */; };
+		08D1FF231DD8252B00A725C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D1FF211DD8252B00A725C9 /* Main.storyboard */; };
+		08D1FF251DD8252B00A725C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D1FF241DD8252B00A725C9 /* Assets.xcassets */; };
+		08D1FF281DD8252B00A725C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D1FF261DD8252B00A725C9 /* LaunchScreen.storyboard */; };
+		08D1FF351DD8282900A725C9 /* SASceneTextAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1FF341DD8282900A725C9 /* SASceneTextAnimation.m */; };
+		08D1FF381DD82AED00A725C9 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D1FF371DD82AED00A725C9 /* SpriteKit.framework */; };
+		08D1FF3A1DD82AF900A725C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D1FF391DD82AF900A725C9 /* UIKit.framework */; };
+		08D1FF3E1DD82B1400A725C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D1FF3B1DD82B1400A725C9 /* AVFoundation.framework */; };
+		08D1FF3F1DD82B1400A725C9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D1FF3C1DD82B1400A725C9 /* CoreFoundation.framework */; };
+		08D1FF401DD82B1400A725C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D1FF3D1DD82B1400A725C9 /* Foundation.framework */; };
+		08D1FF431DD82D4900A725C9 /* SASpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1FF421DD82D4900A725C9 /* SASpaceshipScene.m */; };
+		08D1FF461DD82F6000A725C9 /* SASKViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1FF451DD82F6000A725C9 /* SASKViewManager.m */; };
+		08D1FF4C1DD84BF400A725C9 /* SASceneAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1FF4B1DD84BF400A725C9 /* SASceneAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08D1FF151DD8252B00A725C9 /* SpriteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D1FF191DD8252B00A725C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08D1FF1B1DD8252B00A725C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08D1FF1C1DD8252B00A725C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08D1FF1E1DD8252B00A725C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08D1FF1F1DD8252B00A725C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08D1FF221DD8252B00A725C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08D1FF241DD8252B00A725C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08D1FF271DD8252B00A725C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08D1FF291DD8252B00A725C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D1FF331DD8282900A725C9 /* SASceneTextAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASceneTextAnimation.h; sourceTree = "<group>"; };
+		08D1FF341DD8282900A725C9 /* SASceneTextAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASceneTextAnimation.m; sourceTree = "<group>"; };
+		08D1FF371DD82AED00A725C9 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		08D1FF391DD82AF900A725C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08D1FF3B1DD82B1400A725C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		08D1FF3C1DD82B1400A725C9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		08D1FF3D1DD82B1400A725C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08D1FF411DD82D4900A725C9 /* SASpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASpaceshipScene.h; sourceTree = "<group>"; };
+		08D1FF421DD82D4900A725C9 /* SASpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASpaceshipScene.m; sourceTree = "<group>"; };
+		08D1FF441DD82F6000A725C9 /* SASKViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASKViewManager.h; sourceTree = "<group>"; };
+		08D1FF451DD82F6000A725C9 /* SASKViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASKViewManager.m; sourceTree = "<group>"; };
+		08D1FF471DD8450100A725C9 /* SASceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASceneDelegate.h; sourceTree = "<group>"; };
+		08D1FF4A1DD84BF400A725C9 /* SASceneAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASceneAnimation.h; sourceTree = "<group>"; };
+		08D1FF4B1DD84BF400A725C9 /* SASceneAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASceneAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D1FF121DD8252B00A725C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D1FF3E1DD82B1400A725C9 /* AVFoundation.framework in Frameworks */,
+				08D1FF3F1DD82B1400A725C9 /* CoreFoundation.framework in Frameworks */,
+				08D1FF401DD82B1400A725C9 /* Foundation.framework in Frameworks */,
+				08D1FF3A1DD82AF900A725C9 /* UIKit.framework in Frameworks */,
+				08D1FF381DD82AED00A725C9 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D1FF0C1DD8252B00A725C9 = {
+			isa = PBXGroup;
+			children = (
+				08D1FF171DD8252B00A725C9 /* SpriteApp */,
+				08D1FF161DD8252B00A725C9 /* Products */,
+				08D1FF361DD82AED00A725C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08D1FF161DD8252B00A725C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D1FF151DD8252B00A725C9 /* SpriteApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08D1FF171DD8252B00A725C9 /* SpriteApp */ = {
+			isa = PBXGroup;
+			children = (
+				08D1FF2F1DD827EB00A725C9 /* Class */,
+				08D1FF1B1DD8252B00A725C9 /* AppDelegate.h */,
+				08D1FF1C1DD8252B00A725C9 /* AppDelegate.m */,
+				08D1FF1E1DD8252B00A725C9 /* ViewController.h */,
+				08D1FF1F1DD8252B00A725C9 /* ViewController.m */,
+				08D1FF211DD8252B00A725C9 /* Main.storyboard */,
+				08D1FF241DD8252B00A725C9 /* Assets.xcassets */,
+				08D1FF261DD8252B00A725C9 /* LaunchScreen.storyboard */,
+				08D1FF291DD8252B00A725C9 /* Info.plist */,
+				08D1FF181DD8252B00A725C9 /* Supporting Files */,
+			);
+			path = SpriteApp;
+			sourceTree = "<group>";
+		};
+		08D1FF181DD8252B00A725C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08D1FF191DD8252B00A725C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08D1FF2F1DD827EB00A725C9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				08D1FF301DD827EB00A725C9 /* Helper */,
+				08D1FF311DD827EB00A725C9 /* View */,
+				08D1FF321DD827EB00A725C9 /* ViewController */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		08D1FF301DD827EB00A725C9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				08D1FF441DD82F6000A725C9 /* SASKViewManager.h */,
+				08D1FF451DD82F6000A725C9 /* SASKViewManager.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		08D1FF311DD827EB00A725C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08D1FF471DD8450100A725C9 /* SASceneDelegate.h */,
+				08D1FF4A1DD84BF400A725C9 /* SASceneAnimation.h */,
+				08D1FF4B1DD84BF400A725C9 /* SASceneAnimation.m */,
+				08D1FF331DD8282900A725C9 /* SASceneTextAnimation.h */,
+				08D1FF341DD8282900A725C9 /* SASceneTextAnimation.m */,
+				08D1FF411DD82D4900A725C9 /* SASpaceshipScene.h */,
+				08D1FF421DD82D4900A725C9 /* SASpaceshipScene.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08D1FF321DD827EB00A725C9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		08D1FF361DD82AED00A725C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08D1FF3B1DD82B1400A725C9 /* AVFoundation.framework */,
+				08D1FF3C1DD82B1400A725C9 /* CoreFoundation.framework */,
+				08D1FF3D1DD82B1400A725C9 /* Foundation.framework */,
+				08D1FF391DD82AF900A725C9 /* UIKit.framework */,
+				08D1FF371DD82AED00A725C9 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08D1FF141DD8252B00A725C9 /* SpriteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D1FF2C1DD8252B00A725C9 /* Build configuration list for PBXNativeTarget "SpriteApp" */;
+			buildPhases = (
+				08D1FF111DD8252B00A725C9 /* Sources */,
+				08D1FF121DD8252B00A725C9 /* Frameworks */,
+				08D1FF131DD8252B00A725C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteApp;
+			productName = SpriteApp;
+			productReference = 08D1FF151DD8252B00A725C9 /* SpriteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08D1FF0D1DD8252B00A725C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SA;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Sage;
+				TargetAttributes = {
+					08D1FF141DD8252B00A725C9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 99KC83QESA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 08D1FF101DD8252B00A725C9 /* Build configuration list for PBXProject "SpriteApp" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08D1FF0C1DD8252B00A725C9;
+			productRefGroup = 08D1FF161DD8252B00A725C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D1FF141DD8252B00A725C9 /* SpriteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08D1FF131DD8252B00A725C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D1FF281DD8252B00A725C9 /* LaunchScreen.storyboard in Resources */,
+				08D1FF251DD8252B00A725C9 /* Assets.xcassets in Resources */,
+				08D1FF231DD8252B00A725C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D1FF111DD8252B00A725C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D1FF201DD8252B00A725C9 /* ViewController.m in Sources */,
+				08D1FF1D1DD8252B00A725C9 /* AppDelegate.m in Sources */,
+				08D1FF351DD8282900A725C9 /* SASceneTextAnimation.m in Sources */,
+				08D1FF1A1DD8252B00A725C9 /* main.m in Sources */,
+				08D1FF461DD82F6000A725C9 /* SASKViewManager.m in Sources */,
+				08D1FF431DD82D4900A725C9 /* SASpaceshipScene.m in Sources */,
+				08D1FF4C1DD84BF400A725C9 /* SASceneAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08D1FF211DD8252B00A725C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D1FF221DD8252B00A725C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08D1FF261DD8252B00A725C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D1FF271DD8252B00A725C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08D1FF2A1DD8252B00A725C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08D1FF2B1DD8252B00A725C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08D1FF2D1DD8252B00A725C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99KC83QESA;
+				INFOPLIST_FILE = SpriteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sage.www.SpriteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08D1FF2E1DD8252B00A725C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99KC83QESA;
+				INFOPLIST_FILE = SpriteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sage.www.SpriteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D1FF101DD8252B00A725C9 /* Build configuration list for PBXProject "SpriteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D1FF2A1DD8252B00A725C9 /* Debug */,
+				08D1FF2B1DD8252B00A725C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D1FF2C1DD8252B00A725C9 /* Build configuration list for PBXNativeTarget "SpriteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D1FF2D1DD8252B00A725C9 /* Debug */,
+				08D1FF2E1DD8252B00A725C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08D1FF0D1DD8252B00A725C9 /* Project object */;
+}
